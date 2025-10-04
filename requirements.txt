@@ -7,7 +7,6 @@ dataclasses
 pymongo
 pyaml
 certifi
-pymongo[srv]
+pymongo[srv]==3.11
 python-dotenv
-
 #-e.
