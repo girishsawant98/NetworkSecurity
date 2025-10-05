@@ -9,7 +9,7 @@ __pycache__/
 #Folder for artifacts and logs
 Artifacts/
 logs/
-
+.vscode/
 # Distribution / packaging
 .Python
 build/
