@@ -9,4 +9,6 @@ pyaml
 certifi
 pymongo[srv]==3.11
 python-dotenv
+fastapi
+uvicorn 
 #-e.
