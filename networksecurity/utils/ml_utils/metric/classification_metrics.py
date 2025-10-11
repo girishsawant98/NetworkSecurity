@@ -27,5 +27,7 @@ def get_classification_score(y_true, y_pred) -> ClassificationMetricArtifact:
             recall_score=model_recall_score,
             f1_score=model_f1_score
         )
+
+        return classification_metric
     except Exception as e:
         raise NetworkSecurityException(e, sys)
